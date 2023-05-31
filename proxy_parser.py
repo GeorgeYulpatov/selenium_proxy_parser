@@ -26,11 +26,11 @@ try:
 
     # Ввод Email(указан на прямую в коде)
     driver.find_element(by=By.CSS_SELECTOR, value="#form-login > div:nth-child(1) > div > input["
-                                                  "type=email]").send_keys("demo-tt1@inet-yar.ru")
+                                                  "type=email]").send_keys("email")
     time.sleep(2)
 
     # Ввод пароля(указан на прямую в коде)
-    driver.find_element(by=By.CSS_SELECTOR, value="#login-password").send_keys("rNCV14la")
+    driver.find_element(by=By.CSS_SELECTOR, value="#login-password").send_keys("password")
     time.sleep(3)
 
     # Предупреждение пользователя
